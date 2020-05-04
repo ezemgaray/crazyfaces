@@ -1,0 +1,1191 @@
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.avatar__header{
+    position: absolute;
+    display: inline-block;
+    top: -105%;
+    left: 36%;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: -8px -8px 10px rgba(255, 255, 255, 0.685), 5px 5px 10px rgb(134, 137, 148),
+        inset 5px 5px 20px rgba(255, 255, 255, 0.85), inset -5px -5px 20px rgba(0, 0, 0, 0.85);
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -webkit-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -moz-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -ms-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -o-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+}
+
+.one {
+    border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -webkit-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -moz-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -ms-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+    -o-border-radius: 50% 50% 50% 50% / 75% 75% 25% 25%;
+}
+
+.two {
+    border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+    -webkit-border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+    -moz-border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+    -ms-border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+    -o-border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+}
+
+.three {
+    border-radius: 75% 75% 30% 30% / 75% 75% 75% 75%;
+    -webkit-border-radius: 75% 75% 30% 30% / 75% 75% 75% 75%;
+    -moz-border-radius: 75% 75% 30% 30% / 75% 75% 75% 75%;
+    -ms-border-radius: 75% 75% 30% 30% / 75% 75% 75% 75%;
+    -o-border-radius: 75% 75% 30% 30% / 75% 75% 75% 75%;
+}
+
+.four {
+    border-radius: 25% 25% 20% 20% / 100% 100% 25% 25%;
+    -webkit-border-radius: 25% 25% 20% 20% / 100% 100% 25% 25%;
+    -moz-border-radius: 25% 25% 20% 20% / 100% 100% 25% 25%;
+    -ms-border-radius: 25% 25% 20% 20% / 100% 100% 25% 25%;
+    -o-border-radius: 25% 25% 20% 20% / 100% 100% 25% 25%;
+}
+
+.five {
+    border-radius: 10% 10% 80% 80% / 50% 50% 30% 25%;
+    -webkit-border-radius: 10% 10% 80% 80% / 50% 50% 30% 25%;
+    -moz-border-radius: 10% 10% 80% 80% / 50% 50% 30% 25%;
+    -ms-border-radius: 10% 10% 80% 80% / 50% 50% 30% 25%;
+    -o-border-radius: 10% 10% 80% 80% / 50% 50% 30% 25%;
+}
+
+/*
+    SKIN COLORS
+*/
+.violet {
+    background: #a18cd1;
+}
+
+.green {
+    background: #43e97b;
+}
+
+.red {
+    background: rgb(206, 0, 0);
+}
+
+.blue {
+    background: rgb(0, 47, 177);
+}
+
+.orange {
+    background: orange;
+}
+
+.pink {
+    background: rgb(233, 114, 133);
+}
+
+.light-blue {
+    background: rgb(130, 203, 228);
+}
+
+.purple {
+    background: rgb(121, 22, 116);
+}
+
+.ferckles {
+    background: rgb(255, 255, 0) url('../img/red-dot.png') repeat;
+    background-size: 30px;
+    background-position: -15px;
+}
+.gear {
+    background: rgb(255, 0, 191) url('../img/gear.png') repeat;
+    background-size: 30px;
+    background-position: 4px;
+}
+.check {
+    background: rgb(255, 0, 119) url('../img/check.png') repeat;
+    background-size: 30px;
+    background-position: -15px;
+}
+
+/*
+    TOP HEAD (HAIR, HORNS...)
+*/
+
+.topHead {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 20%;
+}
+
+.hair {
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: 250px;
+    height: 120px;
+}
+
+.red-horns {
+    background: url('../img/horns2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 130px;
+}
+
+.black-horns {
+    width: 250px;
+    height: 120px;
+    background: url('../img/horns.png') no-repeat;
+    background-size: 250px 100px;
+}
+
+.punk {
+    top: -60px;
+    width: 250px;
+    height: 120px;
+    background: url('../img/punk.png') center no-repeat;
+    background-size: 150px 100px;
+}
+
+.wig {
+    width: 250px;
+    height: 120px;
+    background: url('../img/hair.png') center no-repeat;
+    background-size: 250px 100px;
+}
+
+.saint {
+    top: -35px;
+    left: 28px;
+    z-index: -1;
+    width: 150px;
+    height: 100px;
+    border: solid 10px rgb(223, 223, 8);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.hat {
+    top: -60px;
+    left: 100px;
+    width: 130px;
+    height: 130px;
+    background: url(../img/hat.png) no-repeat;
+    background-size: 130px;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+    -o-transform: rotate(25deg);
+    z-index: 1;
+}
+
+.eyebrow {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 10%;
+    overflow: hidden;
+}
+
+.eyebrow span {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    border-top: solid #000000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.fine span {
+    width: 70px;
+    height: 25px;
+    border-top-width: 5px;
+}
+
+.thick span {
+    width: 70px;
+    height: 40px;
+    border-top-width: 10px;
+}
+
+.thicker span {
+    top: 0;
+    width: 70px;
+    height: 50px;
+    border-top-width: 15px;
+}
+
+/*
+    EYES
+*/
+
+.eyes {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 35%;
+}
+
+.eye {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+    animation: closeeyes 3.5s ease-in-out infinite;
+    -webkit-animation: closeeyes 3.5s ease-in-out infinite;
+}
+
+.smaller {
+    top: 20%;
+    width: 30px;
+    height: 30px;
+}
+
+.small {
+    top: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.big {
+    width: 65px;
+    height: 65px;
+}
+
+.bigger {
+    width: 90px;
+    height: 80px;
+}
+
+.chinese {
+    width: 70px;
+    height: 15px;
+}
+
+.square {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.crazy {
+    width: 65px;
+    height: 65px;
+}
+
+.crazy.left {
+    width: 40px;
+    height: 40px;
+}
+
+/*
+    PUPIL
+*/
+
+.pupil {
+    position: absolute;
+    bottom: 30%;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    background-color: #3b3b3b;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.pupil::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.smaller .pupil {
+    left: 10%;
+    top: 10%;
+}
+
+.small .pupil {
+    left: 25%;
+}
+
+.big .pupil {
+    left: 30%;
+}
+
+.bigger .pupil {
+    left: 35%;
+}
+
+.chinese .pupil {
+    left: 35%;
+    bottom: -5px;
+}
+
+.square .pupil {
+    left: 30%;
+}
+
+.crazy.right .pupil {
+    left: 55%;
+}
+
+/*
+    MOUTH
+*/
+
+.mouth__container {
+    width: 90%;
+    height: 45%;
+}
+
+.mouth {
+    position: relative;
+    margin: 0 auto;
+    background-color: #000;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.simple {
+    width: 90%;
+    height: 50%;
+    border-radius: 20% 20% 50% 50% / 50% 50% 50% 50%;
+    -webkit-border-radius: 20% 20% 50% 50% / 50% 50% 50% 50%;
+    -moz-border-radius: 20% 20% 50% 50% / 50% 50% 50% 50%;
+    -ms-border-radius: 20% 20% 50% 50% / 50% 50% 50% 50%;
+    -o-border-radius: 20% 20% 50% 50% / 50% 50% 50% 50%;
+}
+
+.happy {
+    width: 90%;
+    height: 80%;
+    border-radius: 5% 5% 50% 50%;
+    -webkit-border-radius: 5% 5% 50% 50%;
+    -moz-border-radius: 5% 5% 50% 50%;
+    -ms-border-radius: 5% 5% 50% 50%;
+    -o-border-radius: 5% 5% 50% 50%;
+}
+
+.monster {
+    width: 90%;
+    height: 80%;
+    border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+}
+
+.what {
+    width: 90%;
+    height: 50%;
+    border-radius: 100% 15% 50% 10%;
+    -webkit-border-radius: 100% 15% 50% 10%;
+    -moz-border-radius: 100% 15% 50% 10%;
+    -ms-border-radius: 100% 15% 50% 10%;
+    -o-border-radius: 100% 15% 50% 10%;
+}
+
+.ohhh {
+    width: 40%;
+    height: 60%;
+    border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    -ms-border-radius: 50% 50% 50% 50%;
+    -o-border-radius: 50% 50% 50% 50%;
+}
+
+.scared {
+    top: 50px;
+    width: 90%;
+    height: 15%;
+    border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+}
+
+
+
+.mouth .teeth {
+    display: flex;
+    justify-content: center;
+}
+
+.teeth span {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .85);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+
+}
+
+.mouth.simple .teeth span:nth-child(4),
+.mouth.simple .teeth span:nth-child(5),
+.mouth.happy .teeth span:nth-child(3),
+.mouth.happy .teeth span:nth-child(5),
+.mouth.happy .teeth span:nth-child(4),
+.mouth.what .teeth span:nth-child(2) {
+    margin: 0 20px;
+    margin-top: -15px;
+    width: 40px;
+    height: 40px;
+}
+
+.mouth.happy .teeth span:nth-child(4) {
+    margin-top: 75px;
+}
+
+.mouth.monster .teeth span:nth-child(even) {
+    margin-left: -30px;
+    margin-top: -15px;
+    width: 40px;
+    height: 40px;
+    transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+}
+
+.mouth.monster .teeth span:nth-child(odd) {
+    margin-top: 75px;
+    width: 40px;
+    height: 80px;
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
+
+.mouth.scared .teeth span:nth-child(odd) {
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+
+/*
+////////////////////////////////
+        ANIMATIONS
+////////////////////////////////
+*/
+
+.head.animate{
+    animation: animajump 2.5s ease-in-out infinite;
+    -webkit-animation: animajump 2.5s ease-in-out infinite;
+}
+
+.eye.smaller.animate .pupil,
+.eye.small.animate .pupil {
+    animation: pupilsmaller 2.5s ease-in-out infinite;
+    -webkit-animation: pupilsmaller 2.5s ease-in-out infinite;
+}
+
+.eye.smaller.animate,
+.eye.small.animate {
+    animation: eyesmaller 2.5s ease-in-out infinite;
+    -webkit-animation: eyesmaller 2.5s ease-in-out infinite;
+}
+
+.eye.chinese.animate .pupil {
+    animation: pupilchinese 2.5s ease-in-out infinite;
+    -webkit-animation: pupilchinese 2.5s ease-in-out infinite;
+}
+
+.eye.big.animate .pupil,
+.eye.bigger.animate .pupil,
+.eye.square.animate .pupil {
+    animation: pupilbigger 2.5s ease-in-out infinite;
+    -webkit-animation: pupilbigger 2.5s ease-in-out infinite;
+}
+
+.eye.right.crazy.animate {
+    animation: eyecrazy 2.5s ease-in-out infinite;
+    -webkit-animation: eyecrazy 2.5s ease-in-out infinite;
+}
+
+.simple.animate,
+.ohhh.animate {
+    animation: animasimple 2.5s ease-in-out infinite;
+    -webkit-animation: animasimple 2.5s ease-in-out infinite;
+}
+
+.scared.animate, .happy.animate {
+    animation: animascared 2.5s ease-in-out infinite;
+    -webkit-animation: animascared 2.5s ease-in-out infinite;
+}
+
+.scared.animate .teeth span:nth-child(odd) {
+    animation: animateethscared 2.5s ease-in-out infinite;
+    -webkit-animation: animateethscared 2.5s ease-in-out infinite;
+}
+
+.what.animate {
+    animation: animawhat 2.5s ease-in-out infinite;
+    -webkit-animation: animawhat 2.5s ease-in-out infinite;
+}
+
+.monster.animate {
+    animation: animamonster 2.5s ease-in-out infinite;
+    -webkit-animation: animamonster 2.5s ease-in-out infinite;
+}
+
+.monster.animate .teeth span:nth-child(odd) {
+    animation: animateeth 2.5s ease-in-out infinite;
+    -webkit-animation: animateeth 2.5s ease-in-out infinite;
+}
+
+
+
+@keyframes closeeyes {
+    79% {
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+    }
+
+    80% {
+        transform: rotateX(90deg);
+        -webkit-transform: rotateX(90deg);
+        -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+        -o-transform: rotateX(90deg);
+    }
+
+    85% {
+        transform: rotateX(0deg);
+        -webkit-transform: rotateX(0deg);
+        -moz-transform: rotateX(0deg);
+        -ms-transform: rotateX(0deg);
+        -o-transform: rotateX(0deg);
+    }
+}
+
+@keyframes pupilchinese {
+    20% {
+        left: 0%;
+    }
+
+    40% {
+        left: 70%;
+    }
+
+    60% {
+        left: 0%;
+    }
+
+    80% {
+        left: 70%;
+    }
+
+    100% {
+        left: 35%;
+    }
+}
+
+@keyframes pupilbigger {
+    20% {
+        left: 0%;
+    }
+
+    40% {
+        left: 20%;
+        bottom: 0%;
+    }
+
+    60% {
+        left: 60%;
+        bottom: 55%;
+    }
+
+    80% {
+        left: 50%;
+        bottom: 55%;
+    }
+
+    100% {
+        left: 35%;
+    }
+}
+
+@keyframes eyesmaller {
+    20% {
+        top: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        top: 0%;
+        width: 80px;
+        height: 80px;
+    }
+
+    80% {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@keyframes pupilsmaller {
+    0% {
+        width: 15px;
+        height: 15px;
+    }
+
+    50% {
+        left: 10%;
+        width: 50px;
+        height: 50px;
+    }
+
+    100% {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@keyframes eyecrazy {
+    20% {
+        height: 65px;
+    }
+
+    21% {
+        height: 45px;
+    }
+
+    22% {
+        height: 65px;
+    }
+
+    23% {
+        height: 60px;
+    }
+
+    24% {
+        height: 65px;
+    }
+
+    25% {
+        height: 45px;
+    }
+
+    26% {
+        height: 65px;
+    }
+
+    70% {
+        height: 60px;
+    }
+
+    71% {
+        height: 65px;
+    }
+
+    72% {
+        height: 45px;
+    }
+
+    73% {
+        height: 65px;
+    }
+
+    74% {
+        height: 45px;
+    }
+
+    75% {
+        height: 65px;
+    }
+
+    76% {
+        height: 45px;
+    }
+
+    77% {
+        height: 65px;
+    }
+
+}
+
+@keyframes pupilcrazy {
+    0% {
+        width: 15px;
+        height: 15px;
+    }
+
+    50% {
+        left: 10%;
+        width: 50px;
+        height: 50px;
+    }
+
+    100% {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+
+@keyframes animateeth {
+    20% {
+        margin-top: 75px;
+    }
+
+    22% {
+        margin-top: 65px;
+    }
+
+    24% {
+        margin-top: 75px;
+    }
+
+    26% {
+        margin-top: 65px;
+    }
+
+    28% {
+        margin-top: 75px;
+    }
+
+    30% {
+        margin-top: 65px;
+    }
+
+    32% {
+        margin-top: 75px;
+    }
+
+    34% {
+        margin-top: 65px;
+    }
+
+    36% {
+        margin-top: 75px;
+    }
+
+    38% {
+        margin-top: 65px;
+    }
+
+    40% {
+        margin-top: 75px;
+    }
+}
+
+@keyframes animateethscared {
+    20% {
+        margin-top: 0;
+    }
+
+    23% {
+        margin-top: 10px;
+    }
+
+    26% {
+        margin-top: 0%;
+    }
+
+    29% {
+        margin-top: 10px;
+    }
+
+    32% {
+        margin-top: 0px;
+    }
+
+    35% {
+        margin-top: 10px;
+    }
+
+    38% {
+        margin-top: 0px;
+
+    }
+
+    41% {
+        margin-top: 10px;
+    }
+
+    44% {
+        margin-top: 0px;
+
+    }
+
+    70% {
+        margin-top: 0px;
+
+    }
+
+    73% {
+        margin-top: 10px;
+
+    }
+
+    76% {
+        margin-top: 0px;
+
+    }
+
+    79% {
+        margin-top: 10px;
+
+    }
+
+    82% {
+        margin-top: 0px;
+
+    }
+
+    85% {
+        margin-top: 10px;
+
+    }
+
+    88% {
+        margin-top: 0px;
+
+    }
+
+    91% {
+        margin-top: 10px;
+
+    }
+
+    94% {
+        margin-top: 0px;
+
+    }
+}
+
+@keyframes animamonster {
+    20% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    22% {
+        width: 80%;
+        height: 60%;
+        border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    24% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    26% {
+        width: 80%;
+        height: 60%;
+        border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    28% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    30% {
+        width: 80%;
+        height: 60%;
+        border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    32% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    34% {
+        width: 80%;
+        height: 60%;
+        border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    36% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    38% {
+        width: 80%;
+        height: 60%;
+        border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 50% 50% 20% 20% / 50% 50% 100% 100%;
+    }
+
+    40% {
+        width: 90%;
+        height: 80%;
+        border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -webkit-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -moz-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -ms-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+        -o-border-radius: 20% 20% 20% 20% / 50% 50% 100% 100%;
+    }
+}
+
+@keyframes animawhat {
+    50% {
+        border-radius: 20% 50% 20% 20% / 50% 50% 50% 50%;
+        -webkit-border-radius: 20% 50% 20% 20% / 50% 50% 50% 50%;
+        -moz-border-radius: 20% 50% 20% 20% / 50% 50% 50% 50%;
+        -ms-border-radius: 20% 50% 20% 20% / 50% 50% 50% 50%;
+        -o-border-radius: 20% 50% 20% 20% / 50% 50% 50% 50%;
+    }
+}
+
+@keyframes animascared {
+    20% {
+        height: 15%;
+    }
+
+    23% {
+        height: 20%;
+    }
+
+    26% {
+        height: 15%;
+    }
+
+    29% {
+        height: 20%;
+    }
+
+    32% {
+        height: 15%;
+    }
+
+    35% {
+        height: 20%;
+    }
+
+    38% {
+        height: 15%;
+    }
+
+    41% {
+        height: 20%;
+    }
+
+    44% {
+        height: 15%;
+    }
+
+    70% {
+        height: 15%;
+    }
+
+    73% {
+        height: 20%;
+    }
+
+    76% {
+        height: 15%;
+    }
+
+    79% {
+        height: 20%;
+    }
+
+    82% {
+        height: 15%;
+    }
+
+    85% {
+        height: 20%;
+    }
+
+    88% {
+        height: 15%;
+    }
+
+    91% {
+        height: 20%;
+    }
+
+    93% {
+        height: 15%;
+    }
+}
+
+@keyframes animasimple {
+    20% {
+        height: 15%;
+    }
+
+    30% {
+        height: 20%;
+    }
+
+    40% {
+        height: 10%;
+    }
+
+    20% {
+        height: 15%;
+    }
+}
+
+@keyframes animajump{
+
+    15%{
+        height: 280px;
+        width: 320px;
+        margin-top: 20px;
+    }
+    20%{
+        height: 300px;
+        width: 300px;
+        margin-top: 0;
+    }
+    25%{
+        margin-top: -80px;
+    }
+    30%{
+        margin-top: 0px;
+    }
+    45%{
+        width: 320px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    50%{
+        height: 300px;
+        width: 300px;
+        margin-top: 0;
+    }
+    55%{
+        margin-top: -80px;
+    }
+    60%{
+        margin-top: 0px;
+    }
+    75%{
+        width: 320px;
+        height: 280px;
+        margin-top: 20px;
+    }
+    80%{
+        height: 300px;
+        width: 300px;
+        margin-top: 0;
+    }
+    85%{
+        margin-top: -80px;
+    }
+    90%{
+        margin-top: 0px;
+    }
+}

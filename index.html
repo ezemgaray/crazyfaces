@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Faces
+        </h1>
+    </header>
+
+    <div id="preload" class=""></div>
+
+    <main>
+        <div class="general__container">
+
+            <section id="start" class="start">
+                <div class="title__section">
+                    <h2>Welcome</h2>
+                </div>
+                <div class="article__container">
+                    <article class="start__article">
+                        <img src="src/img/monster.png" alt="" class="imagen">
+                        <h3>Crazy Faces</h3>
+                        <p>Generate fun avatars by choosing their shape, hair, accessories, eyes, eyebrows and mouth.</p>
+                        <p>Combine the different options, give it a name, try the animations and make your avatar travel the world.</p>
+                        <p>If you want to save your avatar as an image, you can do it with a screenshot.</p>
+                    </article>
+                </div>
+
+                <div class="actions__section">
+                    <input type="button" value="enter" id="to-login" class="btn">
+                </div>
+
+            </section>
+
+            <section id="login" class="login">
+                <div class="title__section">
+                    <h2>Login</h2>
+                </div>
+
+                <div class="login__form">
+                    <form action="/" name="formlogin" id="formlogin">
+                        <div>
+                            <label for="fmail">Mail</label>
+                            <input type="email" name="fmail" id="fmail" value="">
+                            <label for="fmail" class="error">MAIL Required or invalid data<span
+                                    class="error__img"></span></label>
+                        </div>
+                        <div>
+                            <label for="fbday">Birthday</label>
+                            <input type="text" name="fbday" id="fbday" value="">
+                            <label for="fbday" class="error">DATE Required or invalid data. <br> e.g. 01/01/2020 <span
+                                    class="error__img"></span></label>
+                        </div>
+                        <div class="input__radio">
+                            <input type="radio" name="fsex" id="male" value="Male">
+                            <label for="male">Male</label>
+                            
+                        </div>
+                        <div class="input__radio">
+                            <input type="radio" name="fsex" id="female" value="Female">
+                            <label for="female">Female</label>
+                            <label for="female" class="error">Genre Required <span
+                                class="error__img"></span></label>
+                        </div>
+
+                        <div class="input__checkbox">
+                            <input type="checkbox" name="faccept" id="faccept">
+                            <label for="faccept">I accept terms and conditions.</label>
+                            <label for="faccept" class="error">Please accept terms and conditions<span
+                                    class="error__img"></span></label>
+                        </div>
+                    </form>
+                </div>
+                <div class="actions__section">
+                    <input type="submit" value="start" name="submit" id="to-create" form="formlogin" class="btn">
+                </div>
+            </section>
+
+            <section id="create" class="create">
+                <div class="title__section">
+                    <h2 data-create="create">Create</h2>
+                </div>
+                <div class="create__container">
+                    <div class="create__menu box">
+                        <div class="create__menu--types">
+                            <ul>
+                                <li class="btn" id="menu-head">Head</li>
+                                <li class="btn" id="menu-skin">Skin</li>
+                                <li class="btn" id="menu-topHead">Top Head</li>
+                                <li class="btn" id="menu-eyebrow">Eyebrow</li>
+                                <li class="btn" id="menu-eyes">Eyes</li>
+                                <li class="btn" id="menu-mouth">mouth</li>
+                                <li class="btn" id="menu-random">Random</li>
+                            </ul>
+                        </div>
+                        <div class="hidde__scroll">
+                            <div class="create__menu--items">
+                                <ul id="show-items">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="create-preview" class="create__preview box">
+                    </div>
+                </div>
+
+                <div id="dialogCreate" class="dialog__container">
+                </div>
+
+                <div class="actions__section">
+                    <input type="button" value="clear avatar" id="clear-avatar" class="btn">
+                    <input type="button" value="save avatar" id="to-saved" class="btn">
+                </div>
+            </section>
+
+            <section id="saved" class="saved">
+                <div class="title__section">
+                    <h2 class="title__section" data-saved="saved">Saved</h2>
+                </div>
+                <div class="saved__container">
+
+                    <div id="saved__preview" class="saved__preview box">
+                    </div>
+
+                    <div class="saved__interactive">
+                        <div><input type="button" value="" class="btn travel" id="travel"></div>
+                        <div><input type="button" value="" class="btn animations" id="animations"></div>
+                    </div>
+
+                    <div class="saved__list box">
+                        <div class="saved__hidde__scroll">
+                            <div class="saved__list--items">
+                                <ul id="saved-items">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dialogSaved" class="dialog__container"></div>
+
+                <div class="actions__section">
+                    <input type="button" value="new avatar" id="to-login2" class="btn">
+                    <input type="button" value="close" id="to-start" class="btn">
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Copy &copy;2020</p>
+    </footer>
+
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
