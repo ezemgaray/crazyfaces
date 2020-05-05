@@ -106,6 +106,9 @@
     background: rgb(121, 22, 116);
 }
 
+.brown{
+    background-color: brown;
+}
 
 .ferckles {
     background: rgb(255, 255, 0) url('../img/red-dot.png') repeat;

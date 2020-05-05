@@ -17,7 +17,7 @@ let tempSelected = {
 
 let menu = {
     head: ['one', 'two', 'three', 'four', 'five'],
-    skin: ['none', 'violet', 'green', 'red', 'blue', 'orange', 'purple', 'pink', 'light-blue', 'ferckles', 'gear', 'check'],
+    skin: ['none', 'violet', 'green', 'red', 'blue', 'orange', 'purple', 'pink', 'light-blue', 'ferckles', 'gear', 'check', 'brown'],
     topHead: ['none', 'red-horns', 'black-horns', 'saint', 'punk', 'wig', 'hat'],
     eyebrow: ['none', 'fine', 'thick', 'thicker'],
     eyes: ['smaller', 'small', 'big', 'bigger', 'chinese', 'square', 'crazy'],
