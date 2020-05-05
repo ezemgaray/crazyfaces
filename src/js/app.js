@@ -565,17 +565,17 @@ let modal = {
         dialogContainer.addEventListener("click", function (e) {
             switch (e.target.id) {
                 case "paris":
-                    avatarContainer.style.backgroundImage = "url(../src/img/paris.jpg)"
+                    avatarContainer.style.backgroundImage = "url(./src/img/paris.jpg)"
                     avatar.style.cssText = "margin-right: -120px; margin-top: 150px;" +
                         "transform: scale(0.8) rotate(-15deg);"
                     break
                 case "sahara":
-                    avatarContainer.style.backgroundImage = "url(../src/img/sahara.jpg)"
+                    avatarContainer.style.backgroundImage = "url(./src/img/sahara.jpg)"
                     avatar.style.cssText = "margin-right: 40px; margin-top: -95px;" +
                         "transform: scale(0.3) skew(-10deg) rotateY(-45deg);"
                     break
                 case "roma":
-                    avatarContainer.style.backgroundImage = "url(../src/img/roma.jpg)"
+                    avatarContainer.style.backgroundImage = "url(./src/img/roma.jpg)"
                     avatar.style.cssText = "margin-right: 200px; margin-top: 140px;" +
                         "transform: scale(0.5);"
                     break
