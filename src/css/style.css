@@ -40,7 +40,7 @@ header {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
-    background-image: linear-gradient(to right,  #7d8ba8,  #EBECF0 100%);
+    background-image: linear-gradient(to right, #7d8ba8, #EBECF0 100%);
 }
 
 h1,
@@ -56,13 +56,14 @@ h1 {
     font-weight: bold;
 }
 
-ul { /*IE*/
+ul {
+    /*IE*/
     list-style: none;
     list-style-image: none;
     list-style-type: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
@@ -82,7 +83,9 @@ header h1 {
     -o-transform: translate(-50%, -50%);
 }
 
-input[type="text"], input[type="email"], input[type="date"] {
+input[type="text"],
+input[type="email"],
+input[type="date"] {
     appearance: none;
     -webkit-appearance: none;
     box-shadow: inset 2px 2px 5px #BABECC,
@@ -95,7 +98,9 @@ input[type="text"], input[type="email"], input[type="date"] {
 }
 
 .btn,
-input[type="text"], input[type="email"], input[type="date"] {
+input[type="text"],
+input[type="email"],
+input[type="date"] {
     width: 100%;
     border: none;
     padding: 8px 16px;
@@ -108,7 +113,9 @@ input[type="text"], input[type="email"], input[type="date"] {
     -o-border-radius: 5px;
 }
 
-input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
     box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
 }
 
@@ -130,11 +137,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus {
     box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
 }
 
-input.btn:hover{
+input.btn:hover {
     color: #333333;
 }
 
-input.btn{
+input.btn {
     text-transform: uppercase;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -152,7 +159,7 @@ input.btn{
 [type="radio"],
 [type="checkbox"] {
     border: none;
-    
+
 }
 
 input[type="radio"],
@@ -167,14 +174,16 @@ label {
     display: inline-block;
     margin: 12px 0 3px 5px;
 }
-label.error{
+
+label.error {
     display: none;
     position: relative;
     left: 30px;
     width: 100%;
     color: red;
 }
-.error .error__img{
+
+.error .error__img {
     position: absolute;
     top: -10px;
     left: -45px;
@@ -193,7 +202,7 @@ label.error{
 
 .login,
 .create,
-.saved{
+.saved {
     display: none;
 }
 
@@ -259,7 +268,8 @@ label.error{
     CREATE SECTION
 */
 
-.create__container, .saved__container {
+.create__container,
+.saved__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -276,23 +286,24 @@ label.error{
     padding: 20px;
 }
 
-.create__menu .btn{
+.create__menu .btn {
     margin: 10px 0;
 }
 
-.create__menu--types{
+.create__menu--types {
     width: 35%;
     height: 100%;
 }
 
-.hidde__scroll{
+.hidde__scroll {
     padding: 10px 0;
     width: 60%;
     height: 100%;
     overflow: hidden;
 }
 
-.create__menu--items, .saved__list--items{
+.create__menu--items,
+.saved__list--items {
     width: 104%;
     height: 120%;
     margin-top: -34px;
@@ -301,14 +312,16 @@ label.error{
     overflow-y: auto;
 }
 
-.create__menu--items li:last-child{
+.create__menu--items li:last-child {
     margin-bottom: 55px;
 }
-.create__menu--items li:first-child{
+
+.create__menu--items li:first-child {
     margin-top: 8px;
 }
 
-.create__preview, .saved__preview {
+.create__preview,
+.saved__preview {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,18 +334,18 @@ label.error{
     DIALOG MY NAME IS??
 */
 
-.dialog__container{
+.dialog__container {
     position: absolute;
     top: 0;
     left: 0;
     display: none;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
     z-index: 1;
 }
 
-.dialog{
+.dialog {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -344,7 +357,7 @@ label.error{
     height: 450px;
     background-color: #EBECF0;
     overflow: hidden;
-   transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -357,7 +370,7 @@ label.error{
 
 }
 
-.close__dialog{
+.close__dialog {
     position: absolute;
     top: 0;
     right: 0;
@@ -378,12 +391,13 @@ label.error{
 }
 
 
-.dialog h3{
+.dialog h3 {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.dialog__left, .dialog__right{
+.dialog__left,
+.dialog__right {
     position: relative;
     width: 50%;
     height: 100%;
@@ -391,37 +405,50 @@ label.error{
     overflow: hidden;
 }
 
-.dialog__left.dialog__form{
+.dialog__left.dialog__form {
     width: 40%;
     text-align: center;
 }
-.dialog__right.dialog__avatar{
+
+.dialog__right.dialog__avatar {
     width: 60%;
 }
-.dialog__form>div{
+
+.dialog__form>div {
     width: 100%;
     text-align: center;
 }
 
-.dialog__right.dialog__travel{
+.dialog__right.dialog__travel {
     width: 30%;
 }
 
-.dialog__left.dialog__avatar{
+.dialog__left.dialog__avatar {
     width: 70%;
     max-width: 650px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.dialog__left.dialog__avatar>div{
+
+.dialog__left.dialog__avatar::after {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    content: url('../img/paris.jpg') url('../img/sahara.jpg') url('../img/roma.jpg');
+}
+
+.dialog__left.dialog__avatar>div {
     margin: auto;
 }
 
-.dialog__form .btn{
+.dialog__form .btn {
     width: 40%;
 }
 
-.dialog__form>div, .dialog__travel>div{
+.dialog__form>div,
+.dialog__travel>div {
     position: relative;
     margin: 0 auto;
     top: 50%;
@@ -436,7 +463,7 @@ label.error{
 /*
     SAVED SECTION
 */
-.box{
+.box {
     box-shadow: inset 2px 2px 5px #BABECC,
         inset -5px -5px 15px #FFF;
     border-radius: 5px;
@@ -452,47 +479,48 @@ label.error{
     padding: 20px;
 }
 
-.saved__hidde__scroll{
+.saved__hidde__scroll {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-.saved__list--items{
+.saved__list--items {
     padding: 25px 25px 5px 0px;
 }
 
-.saved__list--items li{
+.saved__list--items li {
     font-size: 14px;
 }
 
-.saved__list--items li:last-child{
+.saved__list--items li:last-child {
     margin-bottom: 60px;
 }
-.saved__list--items li:first-child{
+
+.saved__list--items li:first-child {
     margin-top: 20px;
 }
 
-.btn p{
+.btn p {
     pointer-events: none;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.saved__preview{
+.saved__preview {
     width: 65%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.saved__interactive{
+.saved__interactive {
     position: relative;
     width: 5%;
     text-align: center;
 }
 
-.saved__interactive .btn{
+.saved__interactive .btn {
     text-align: center;
     margin: 10px 0;
     padding-top: 10px;
@@ -508,18 +536,20 @@ label.error{
     -o-border-radius: 50%;
 }
 
-.btn.travel{
+.btn.travel {
     background-image: url(../img/travel.png);
     background-size: 28px;
 }
-.btn.postcards{
+
+.btn.postcards {
     background-image: url(../img/keyboard.png);
 }
-.btn.animations{
+
+.btn.animations {
     background-image: url(../img/animation.png);
 }
 
-.preload{
+.preload {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -536,7 +566,7 @@ label.error{
     -webkit-animation: preload 3.5s linear;
 }
 
-.preload__animation{
+.preload__animation {
     position: absolute;
     top: 50%;
     left: 130%;
@@ -557,22 +587,26 @@ label.error{
 
 
 
-@keyframes preload{
-    10%{
+@keyframes preload {
+    10% {
         width: 100vw;
         height: 1vh;
     }
-    20%{
+
+    20% {
         height: 100vh;
     }
-    90%{
+
+    90% {
         height: 100vh;
     }
-    95%{
+
+    95% {
         width: 100vw;
         height: 1vh;
     }
-    100%{
+
+    100% {
         width: 0vw;
         height: 0vh;
     }
